@@ -5,7 +5,8 @@ window.addEventListener('load', () => {
 })
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div class="start_1">
-    <div class="start_1--circle_1"></div>
+  <div class="animation_1">
+    <div class="animation_1--circle_1"></div>
+    <div class="animation_1--circle_2"></div>
   </div>
 `
