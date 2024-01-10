@@ -10,8 +10,6 @@
   width: 150vw;
   height: 0vh;
   transform: translate(-50%, -50%) rotate(90deg);
-  // height: 120vh; // 削除予定
-  // transform: translate(-50%, -50%) rotate(0deg); // 削除予定
   background: color1.$color1_saxony_blue;
 
   &::before {
@@ -51,7 +49,7 @@
     height: 100%;
     transform-origin: center center;
     transform: rotate(-90deg);
-    animation: animation_1_wrap 0.2s cubic-bezier(0.25, 0.43, 0.34, 0.88) 2s
+    animation: animation_1_wrap 0.2s cubic-bezier(0.15, 0, 0.73, 0.15) 2s
       forwards;
   }
 
@@ -69,20 +67,20 @@
     &_1 {
       border: solid 0rem
         rgba($color: color1.$color1_ice_cold_stare, $alpha: 0.2);
-      animation: animation_1_circle_1 0.2s cubic-bezier(0.25, 0.43, 0.34, 0.88)
-        2s forwards;
+      animation: animation_1_circle_1 0.2s cubic-bezier(0.15, 0, 0.73, 0.15) 2s
+        forwards;
     }
 
     &_2 {
       border: solid 0rem
         rgba($color: color1.$color1_ice_cold_stare, $alpha: 0.2);
-      animation: animation_1_circle_2 0.2s cubic-bezier(0.25, 0.43, 0.34, 0.88)
+      animation: animation_1_circle_2 0.2s cubic-bezier(0.15, 0, 0.73, 0.15)
         2.05s forwards;
     }
 
     &_3 {
       border: solid 0rem rgba($color: color1.$color1_ice_cold_stare, $alpha: 1);
-      animation: animation_1_circle_3 0.2s cubic-bezier(0.25, 0.43, 0.34, 0.88)
+      animation: animation_1_circle_3 0.2s cubic-bezier(0.15, 0, 0.73, 0.15)
         2.1s forwards;
     }
   }
@@ -99,7 +97,7 @@
       width: 2.5rem;
       height: 20rem;
       background: color1.$color1_fly_away;
-      animation: animation_1_bar_1 0.2s cubic-bezier(0.25, 0.43, 0.34, 0.88) 2s
+      animation: animation_1_bar_1 0.2s cubic-bezier(0.15, 0, 0.73, 0.15) 2s
         forwards;
     }
 
@@ -109,7 +107,7 @@
       width: 2.5rem;
       height: 15rem;
       background: rgba($color: color1.$color1_ice_cold_stare, $alpha: 0.8);
-      animation: animation_1_bar_2 0.2s cubic-bezier(0.25, 0.43, 0.34, 0.88) 2s
+      animation: animation_1_bar_2 0.2s cubic-bezier(0.15, 0, 0.73, 0.15) 2s
         forwards;
     }
 
@@ -119,7 +117,7 @@
       width: 2.5rem;
       height: 15rem;
       background: color1.$color1_first_snow;
-      animation: animation_1_bar_3 0.2s cubic-bezier(0.25, 0.43, 0.34, 0.88) 2s
+      animation: animation_1_bar_3 0.2s cubic-bezier(0.15, 0, 0.73, 0.15) 2s
         forwards;
     }
   }
@@ -136,8 +134,7 @@
     animation: animation_1_text 0.2s ease 2s forwards;
   }
 
-  animation: animation_1_bg 0.2s cubic-bezier(0.25, 0.43, 0.34, 0.88) 2s
-    forwards;
+  animation: animation_1_bg 0.2s cubic-bezier(0.15, 0, 0.73, 0.15) 2s forwards;
 }
 
 @keyframes animation_1_bg {
