@@ -1,0 +1,210 @@
+@use './colors/baseColor';
+@use './colors/color1';
+
+.animation_2 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &--tile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+
+    &_1 {
+      background: color1.$color1_fly_away;
+      animation: animation_2_tile 0.2s cubic-bezier(0.29, 0, 0.69, 0.09) 2s
+        forwards;
+    }
+
+    &_2 {
+      background: color1.$color1_ice_cold_stare;
+      animation: animation_2_tile 0.3s cubic-bezier(0.29, 0, 0.69, 0.09) 2.05s
+        forwards;
+    }
+  }
+
+  &--triangle {
+    position: absolute;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-bottom: calc(tan(60deg) * 3rem) solid baseColor.$base_color_black;
+    transform-origin: bottom center;
+
+    &_1 {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -250%) scale(0);
+      animation: animation_2_triangle_1 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
+        2s forwards;
+    }
+
+    &_2 {
+      top: 50%;
+      left: calc(50% + 5rem);
+      transform: translate(-50%, -220%) rotate(36deg) scale(0);
+      animation: animation_2_triangle_2 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
+        2s forwards;
+    }
+
+    &_3 {
+      top: 50%;
+      left: calc(50% + 8rem);
+      transform: translate(-50%, -140%) rotate(72deg);
+    }
+
+    &_4 {
+      top: 50%;
+      left: calc(50% + 8rem);
+      transform: translate(-50%, -40%) rotate(108deg);
+    }
+
+    &_5 {
+      top: 50%;
+      left: calc(50% + 5rem);
+      transform: translate(-50%, 40%) rotate(144deg);
+    }
+
+    &_6 {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 70%) rotate(180deg);
+    }
+
+    &_7 {
+      top: 50%;
+      left: calc(50% - 5rem);
+      transform: translate(-50%, 40%) rotate(216deg);
+    }
+
+    &_8 {
+      top: 50%;
+      left: calc(50% - 8rem);
+      transform: translate(-50%, -40%) rotate(252deg);
+    }
+
+    &_9 {
+      top: 50%;
+      left: calc(50% - 8rem);
+      transform: translate(-50%, -140%) rotate(288deg);
+    }
+
+    &_10 {
+      top: 50%;
+      left: calc(50% - 5rem);
+      transform: translate(-50%, -220%) rotate(324deg);
+    }
+  }
+}
+
+@keyframes animation_2_tile {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes animation_2_triangle {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animation_2_triangle_1 {
+  0% {
+    transform: translate(-50%, -250%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -250%) scale(1);
+  }
+}
+
+@keyframes animation_2_triangle_2 {
+  0% {
+    transform: translate(-50%, -220%) rotate(36deg) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -220%) rotate(36deg) scale(1);
+  }
+}
+
+@keyframes animation_2_triangle_3 {
+  0% {
+    transform: translate(-50%, -140%) rotate(72deg) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -140%) rotate(72deg) scale(1);
+  }
+}
+
+@keyframes animation_2_triangle_4 {
+  0% {
+    transform: translate(-50%, -40%) rotate(108deg) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -40%) rotate(108deg) scale(1);
+  }
+}
+
+@keyframes animation_2_triangle_5 {
+  0% {
+    transform: translate(-50%, 40%) rotate(144deg) scale(0);
+  }
+  100% {
+    transform: translate(-50%, 40%) rotate(144deg) scale(1);
+  }
+}
+
+@keyframes animation_2_triangle_6 {
+  0% {
+    transform: translate(-50%, 70%) rotate(180deg) scale(0);
+  }
+  100% {
+    transform: translate(-50%, 70%) rotate(180deg) scale(1);
+  }
+}
+
+@keyframes animation_2_triangle_7 {
+  0% {
+    transform: translate(-50%, 40%) rotate(216deg) scale(0);
+  }
+  100% {
+    transform: translate(-50%, 40%) rotate(216deg) scale(1);
+  }
+}
+
+@keyframes animation_2_triangle_8 {
+  0% {
+    transform: translate(-50%, -40%) rotate(252deg) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -40%) rotate(252deg) scale(1);
+  }
+}
+
+@keyframes animation_2_triangle_9 {
+  0% {
+    transform: translate(-50%, -140%) rotate(288deg) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -140%) rotate(288deg) scale(1);
+  }
+}
+
+@keyframes animation_2_triangle_10 {
+  0% {
+    transform: translate(-50%, -220%) rotate(324deg) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -220%) rotate(324deg) scale(1);
+  }
+}
