@@ -53,9 +53,23 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
     <div class="animation--text animation--text_2">２</div>
   </div>
+
+  <div class="animation_3">
+    <div class="animation_3--tile_wrap">
+      <div class="animation_3--tile animation_3--tile_1"></div>
+      <div class="animation_3--tile animation_3--tile_2"></div>
+      <div class="animation_3--tile animation_3--tile_3"></div>
+    </div>
+    <div class="animation_3--square_wrap">
+      <div class="animation_3--square animation_3--square_1"></div>
+      <div class="animation_3--square animation_3--square_2"></div>
+      <div class="animation_3--square animation_3--square_3"></div>
+    </div>
+    <div class="animation--text animation--text_3">年</div>
+  </div>
 `
 
 // 下記削除予定
-document.querySelector<HTMLDivElement>('#app2')!.innerHTML = `
+document.querySelector<HTMLDivElement>('#app_test')!.innerHTML = `
 
 `

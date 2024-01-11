@@ -1,0 +1,149 @@
+@use './colors/baseColor';
+@use './colors/color1';
+
+.animation_3 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &--tile {
+    &_wrap {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      transform-origin: center center;
+    }
+    &_1 {
+      width: 0%;
+      height: 100vh;
+      background: color1.$color1_saxony_blue;
+      animation: animation_3_tile 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95) 3s
+        forwards;
+      transform: skew(-45deg);
+    }
+    &_2 {
+      width: 0%;
+      height: 100vh;
+      background: color1.$color1_fly_away;
+      animation: animation_3_tile 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95) 3s
+        forwards;
+      transform: skew(-45deg);
+    }
+    &_3 {
+      width: 0%;
+      height: 100vh;
+      background: color1.$color1_first_snow;
+      animation: animation_3_tile 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95) 3s
+        forwards;
+      transform: skew(-45deg);
+    }
+  }
+
+  &--square {
+    position: absolute;
+
+    &_wrap {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &_1 {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(45deg);
+      width: 0rem;
+      height: 0rem;
+      border: solid 0rem rgba($color: color1.$color1_saxony_blue, $alpha: 0.4);
+      animation: animation_3_square_1 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95)
+        3.05s forwards;
+    }
+    &_2 {
+      left: 55%;
+      transform: translate(-50%, 10%) rotate(45deg);
+      width: 0rem;
+      height: 0rem;
+      border: solid 0rem baseColor.$base_color_black;
+      animation: animation_3_square_2 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95)
+        3.07s forwards;
+    }
+    &_3 {
+      top: 50%;
+      left: 45%;
+      transform: translate(-50%, -105%) rotate(45deg);
+      width: 0rem;
+      height: 0rem;
+      border: solid 0rem color1.$color1_saxony_blue;
+      animation: animation_3_square_3 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95)
+        3.09s forwards;
+    }
+  }
+}
+
+@keyframes animation_3_tile {
+  0% {
+    transform: skew(-45deg);
+    width: 0%;
+  }
+  100% {
+    transform: skew(0deg);
+    width: 100%;
+  }
+}
+
+@keyframes animation_3_square_1 {
+  0% {
+    width: 0rem;
+    height: 0rem;
+    border: solid 0rem rgba($color: color1.$color1_saxony_blue, $alpha: 0.4);
+  }
+  50% {
+    width: 15rem;
+    height: 15rem;
+    border: solid 1.5rem rgba($color: color1.$color1_saxony_blue, $alpha: 0.4);
+  }
+  100% {
+    width: 15rem;
+    height: 15rem;
+    border: solid 0rem rgba($color: color1.$color1_saxony_blue, $alpha: 0.4);
+  }
+}
+
+@keyframes animation_3_square_2 {
+  0% {
+    width: 0rem;
+    height: 0rem;
+    border: solid 0rem baseColor.$base_color_black;
+  }
+  50% {
+    width: 8rem;
+    height: 8rem;
+    border: solid 1.2rem baseColor.$base_color_black;
+  }
+  100% {
+    width: 8rem;
+    height: 8rem;
+    border: solid 0rem baseColor.$base_color_black;
+  }
+}
+
+@keyframes animation_3_square_3 {
+  0% {
+    width: 0rem;
+    height: 0rem;
+    border: solid 0rem color1.$color1_saxony_blue;
+  }
+  50% {
+    width: 8rem;
+    height: 8rem;
+    border: solid 1.2rem color1.$color1_saxony_blue;
+  }
+  100% {
+    width: 8rem;
+    height: 8rem;
+    border: solid 0rem color1.$color1_saxony_blue;
+  }
+}
