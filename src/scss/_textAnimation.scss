@@ -1,0 +1,40 @@
+@use './colors/baseColor';
+
+.animation--text {
+  position: absolute;
+  color: baseColor.$base_color_white;
+  font-weight: bold;
+  font-size: 16rem;
+  top: -20%;
+  left: 50%;
+  transform-origin: center center;
+  transform: translate(-50%, -50%);
+
+  &_1 {
+    animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 2s
+      forwards;
+  }
+  &_2 {
+    animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 2.5s
+      forwards;
+  }
+}
+
+@keyframes animation_text {
+  0% {
+    top: -20%;
+    animation-timing-function: cubic-bezier(0.04, 0.64, 0.14, 0.96);
+  }
+  35% {
+    top: 50%;
+    animation-timing-function: cubic-bezier(0.04, 0.64, 0.14, 0.96);
+  }
+  65% {
+    top: 50%;
+    animation-timing-function: cubic-bezier(0.77, 0.08, 0.94, 0.45);
+  }
+  100% {
+    top: 120%;
+    animation-timing-function: cubic-bezier(0.77, 0.08, 0.94, 0.45);
+  }
+}

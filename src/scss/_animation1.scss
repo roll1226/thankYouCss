@@ -122,18 +122,6 @@
     }
   }
 
-  &--text {
-    position: absolute;
-    color: baseColor.$base_color_white;
-    font-weight: bold;
-    font-size: 16rem;
-    top: -20%;
-    left: 50%;
-    transform-origin: center center;
-    transform: translate(-50%, -50%);
-    animation: animation_1_text 0.2s ease 2s forwards;
-  }
-
   animation: animation_1_bg 0.2s cubic-bezier(0.15, 0, 0.73, 0.15) 2s forwards;
 }
 
@@ -277,14 +265,5 @@
     left: 38.2%;
     transform: translate(-50%, 130%) rotate(-135deg) scaleY(0);
     transform-origin: top center;
-  }
-}
-
-@keyframes animation_1_text {
-  0% {
-    top: -20%;
-  }
-  100% {
-    top: 50%;
   }
 }
