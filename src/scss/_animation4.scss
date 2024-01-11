@@ -24,28 +24,28 @@
       transform: translate(0%, -100%);
       background: color1.$color1_water_flow;
       animation: animation_4_tile_1 0.6s cubic-bezier(0.17, 0.67, 0.42, 0.95)
-        3.5s forwards;
+        1.5s forwards;
     }
     &_2 {
       transform-origin: bottom left;
       transform: translate(100%, 0%);
       background: color1.$color1_blue_quartz;
       animation: animation_4_tile_2 0.6s cubic-bezier(0.17, 0.67, 0.42, 0.95)
-        3.5s forwards;
+        1.5s forwards;
     }
     &_3 {
       transform-origin: top right;
       transform: translate(-100%, 0%);
-      background: color1.$color1_first_snow;
+      background: color1.$color1_winter_meadow;
       animation: animation_4_tile_3 0.6s cubic-bezier(0.17, 0.67, 0.42, 0.95)
-        3.5s forwards;
+        1.5s forwards;
     }
     &_4 {
       transform-origin: top left;
       transform: translate(0%, 100%);
       background: color1.$color1_saxony_blue;
       animation: animation_4_tile_4 0.6s cubic-bezier(0.17, 0.67, 0.42, 0.95)
-        3.5s forwards;
+        1.5s forwards;
     }
   }
 }

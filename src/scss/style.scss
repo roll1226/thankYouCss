@@ -5,6 +5,7 @@
 @use './animation2';
 @use './animation3';
 @use './animation4';
+@use './thankYou';
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
@@ -19,4 +20,17 @@ body {
 #app {
   width: 100vw;
   height: 100vh;
+}
+
+#animation {
+  animation: animation 0s linear 1.7s forwards;
+}
+
+@keyframes animation {
+  0% {
+    display: block;
+  }
+  100% {
+    display: none;
+  }
 }

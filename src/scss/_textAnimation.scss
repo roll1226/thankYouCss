@@ -12,19 +12,19 @@
 
   &_1 {
     z-index: 2;
-    animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 2s
+    animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 0s
       forwards;
   }
   &_2 {
-    animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 2.5s
+    animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 0.5s
       forwards;
   }
   &_3 {
-    animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 3s
+    animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 1s
       forwards;
   }
   &_4 {
-    animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 3.5s
+    animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 1.5s
       forwards;
   }
 }

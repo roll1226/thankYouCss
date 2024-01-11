@@ -17,13 +17,13 @@
 
     &_1 {
       background: color1.$color1_fly_away;
-      animation: animation_2_tile 0.2s cubic-bezier(0.29, 0, 0.69, 0.09) 2.5s
+      animation: animation_2_tile 0.2s cubic-bezier(0.29, 0, 0.69, 0.09) 0.5s
         forwards;
     }
 
     &_2 {
       background: color1.$color1_ice_cold_stare;
-      animation: animation_2_tile 0.3s cubic-bezier(0.29, 0, 0.69, 0.09) 2.55s
+      animation: animation_2_tile 0.3s cubic-bezier(0.29, 0, 0.69, 0.09) 0.55s
         forwards;
     }
   }
@@ -40,7 +40,7 @@
       left: 50%;
       transform: translate(-50%, -250%) scale(0);
       animation: animation_2_triangle_1 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
-        2.52s forwards;
+        0.52s forwards;
     }
 
     &_2 {
@@ -48,7 +48,7 @@
       left: calc(50% + 5rem);
       transform: translate(-50%, -220%) rotate(36deg) scale(0);
       animation: animation_2_triangle_2 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
-        2.52s forwards;
+        0.52s forwards;
     }
 
     &_3 {
@@ -56,7 +56,7 @@
       left: calc(50% + 8rem);
       transform: translate(-50%, -140%) rotate(72deg) scale(0);
       animation: animation_2_triangle_3 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
-        2.52s forwards;
+        0.52s forwards;
     }
 
     &_4 {
@@ -64,7 +64,7 @@
       left: calc(50% + 8rem);
       transform: translate(-50%, -40%) rotate(108deg) scale(0);
       animation: animation_2_triangle_4 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
-        2.52s forwards;
+        0.52s forwards;
     }
 
     &_5 {
@@ -72,7 +72,7 @@
       left: calc(50% + 5rem);
       transform: translate(-50%, 40%) rotate(144deg) scale(0);
       animation: animation_2_triangle_5 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
-        2.52s forwards;
+        0.52s forwards;
     }
 
     &_6 {
@@ -80,7 +80,7 @@
       left: 50%;
       transform: translate(-50%, 70%) rotate(180deg) scale(0);
       animation: animation_2_triangle_6 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
-        2.52s forwards;
+        0.52s forwards;
     }
 
     &_7 {
@@ -88,7 +88,7 @@
       left: calc(50% - 5rem);
       transform: translate(-50%, 40%) rotate(216deg) scale(0);
       animation: animation_2_triangle_7 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
-        2.52s forwards;
+        0.52s forwards;
     }
 
     &_8 {
@@ -96,7 +96,7 @@
       left: calc(50% - 8rem);
       transform: translate(-50%, -40%) rotate(252deg) scale(0);
       animation: animation_2_triangle_8 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
-        2.52s forwards;
+        0.52s forwards;
     }
 
     &_9 {
@@ -104,7 +104,7 @@
       left: calc(50% - 8rem);
       transform: translate(-50%, -140%) rotate(288deg) scale(0);
       animation: animation_2_triangle_9 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
-        2.52s forwards;
+        0.52s forwards;
     }
 
     &_10 {
@@ -112,49 +112,49 @@
       left: calc(50% - 5rem);
       transform: translate(-50%, -220%) rotate(324deg) scale(0);
       animation: animation_2_triangle_10 0.1s cubic-bezier(0.29, 0, 0.69, 0.09)
-        2.52s forwards;
+        0.52s forwards;
     }
 
     &__wrap {
       &_1 {
         opacity: 1;
-        animation: animation_2_wrap 0.1s linear 3 2.55s forwards;
+        animation: animation_2_wrap 0.1s linear 3 0.55s forwards;
       }
       &_2 {
         opacity: 1;
-        animation: animation_2_wrap 0.1s linear 3 2.56s forwards;
+        animation: animation_2_wrap 0.1s linear 3 0.56s forwards;
       }
       &_3 {
         opacity: 1;
-        animation: animation_2_wrap 0.1s linear 3 2.57s forwards;
+        animation: animation_2_wrap 0.1s linear 3 0.57s forwards;
       }
       &_4 {
         opacity: 1;
-        animation: animation_2_wrap 0.1s linear 3 2.57s forwards;
+        animation: animation_2_wrap 0.1s linear 3 0.58s forwards;
       }
       &_5 {
         opacity: 1;
-        animation: animation_2_wrap 0.1s linear 3 2.58s forwards;
+        animation: animation_2_wrap 0.1s linear 3 0.59s forwards;
       }
       &_6 {
         opacity: 1;
-        animation: animation_2_wrap 0.1s linear 3 2.59s forwards;
+        animation: animation_2_wrap 0.1s linear 3 0.6s forwards;
       }
       &_7 {
         opacity: 1;
-        animation: animation_2_wrap 0.1s linear 3 2.6s forwards;
+        animation: animation_2_wrap 0.1s linear 3 0.61s forwards;
       }
       &_8 {
         opacity: 1;
-        animation: animation_2_wrap 0.1s linear 3 2.61s forwards;
+        animation: animation_2_wrap 0.1s linear 3 0.62s forwards;
       }
       &_9 {
         opacity: 1;
-        animation: animation_2_wrap 0.1s linear 3 2.62s forwards;
+        animation: animation_2_wrap 0.1s linear 3 0.63s forwards;
       }
       &_10 {
         opacity: 1;
-        animation: animation_2_wrap 0.1s linear 3 2.63s forwards;
+        animation: animation_2_wrap 0.1s linear 3 0.64s forwards;
       }
     }
   }

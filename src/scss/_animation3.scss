@@ -19,7 +19,7 @@
       width: 0%;
       height: 100vh;
       background: color1.$color1_saxony_blue;
-      animation: animation_3_tile 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95) 3s
+      animation: animation_3_tile 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95) 1s
         forwards;
       transform: skew(-45deg);
     }
@@ -27,7 +27,7 @@
       width: 0%;
       height: 100vh;
       background: color1.$color1_fly_away;
-      animation: animation_3_tile 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95) 3s
+      animation: animation_3_tile 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95) 1s
         forwards;
       transform: skew(-45deg);
     }
@@ -35,7 +35,7 @@
       width: 0%;
       height: 100vh;
       background: color1.$color1_first_snow;
-      animation: animation_3_tile 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95) 3s
+      animation: animation_3_tile 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95) 1s
         forwards;
       transform: skew(-45deg);
     }
@@ -59,7 +59,7 @@
       height: 0rem;
       border: solid 0rem color1.$color1_saxony_blue;
       animation: animation_3_square_1 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95)
-        3.05s forwards;
+        1.05s forwards;
     }
     &_2 {
       left: 55%;
@@ -68,7 +68,7 @@
       height: 0rem;
       border: solid 0rem baseColor.$base_color_black;
       animation: animation_3_square_2 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95)
-        3.07s forwards;
+        1.07s forwards;
     }
     &_3 {
       top: 50%;
@@ -78,7 +78,7 @@
       height: 0rem;
       border: solid 0rem color1.$color1_blue_quartz;
       animation: animation_3_square_3 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95)
-        3.09s forwards;
+        1.09s forwards;
     }
   }
 }

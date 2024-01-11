@@ -1,0 +1,41 @@
+@use './colors/baseColor';
+@use './colors/color1';
+
+.thank_you {
+  opacity: 0;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &--text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12rem;
+    font-weight: bold;
+
+    &_1 {
+      color: color1.$color1_parakeet_blue;
+      background: color1.$color1_byzantine_night_blue;
+    }
+    &_2 {
+      color: color1.$color1_byzantine_night_blue;
+      background: color1.$color1_parakeet_blue;
+    }
+  }
+
+  animation: thank_you 0s linear 1.7s forwards;
+}
+
+@keyframes thank_you {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
