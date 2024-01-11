@@ -23,6 +23,10 @@
     animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 3s
       forwards;
   }
+  &_4 {
+    animation: animation_text 0.5s cubic-bezier(0.04, 0.64, 0.14, 0.96) 3.5s
+      forwards;
+  }
 }
 
 @keyframes animation_text {

@@ -1,8 +1,10 @@
+@use './colors/color1';
 @use 'the-new-css-reset/css/reset.css';
 @use './textAnimation';
 @use './animation1';
 @use './animation2';
 @use './animation3';
+@use './animation4';
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
@@ -11,6 +13,7 @@
 
 body {
   position: fixed;
+  background: color1.$color1_winter_meadow;
 }
 
 #app {

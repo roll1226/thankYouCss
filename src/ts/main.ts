@@ -67,9 +67,14 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
     <div class="animation--text animation--text_3">年</div>
   </div>
-`
 
-// 下記削除予定
-document.querySelector<HTMLDivElement>('#app_test')!.innerHTML = `
-
+  <div class="animation_4">
+    <div class="animation_4--tile_wrap">
+      <div class="animation_4--tile animation_4--tile_1"></div>
+      <div class="animation_4--tile animation_4--tile_2"></div>
+      <div class="animation_4--tile animation_4--tile_3"></div>
+      <div class="animation_4--tile animation_4--tile_4"></div>
+    </div>
+    <div class="animation--text animation--text_4">間</div>
+  </div>
 `

@@ -57,7 +57,7 @@
       transform: translate(-50%, -50%) rotate(45deg);
       width: 0rem;
       height: 0rem;
-      border: solid 0rem rgba($color: color1.$color1_saxony_blue, $alpha: 0.4);
+      border: solid 0rem color1.$color1_saxony_blue;
       animation: animation_3_square_1 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95)
         3.05s forwards;
     }
@@ -76,7 +76,7 @@
       transform: translate(-50%, -105%) rotate(45deg);
       width: 0rem;
       height: 0rem;
-      border: solid 0rem color1.$color1_saxony_blue;
+      border: solid 0rem color1.$color1_blue_quartz;
       animation: animation_3_square_3 0.3s cubic-bezier(0.17, 0.67, 0.42, 0.95)
         3.09s forwards;
     }
