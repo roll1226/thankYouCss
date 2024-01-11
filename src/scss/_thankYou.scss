@@ -19,12 +19,80 @@
     font-weight: bold;
 
     &_1 {
+      overflow: hidden;
       color: color1.$color1_parakeet_blue;
       background: color1.$color1_byzantine_night_blue;
+
+      div {
+        &:nth-of-type(1) {
+          transform: translate(0%, 130%);
+          animation: animation_text_thank_you 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.8s forwards;
+        }
+        &:nth-of-type(2) {
+          transform: translate(0%, 130%);
+          animation: animation_text_thank_you 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.82s forwards;
+        }
+        &:nth-of-type(3) {
+          transform: translate(0%, 130%);
+          animation: animation_text_thank_you 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.84s forwards;
+        }
+        &:nth-of-type(4) {
+          transform: translate(0%, 130%);
+          animation: animation_text_thank_you 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.86s forwards;
+        }
+        &:nth-of-type(5) {
+          transform: translate(0%, 130%);
+          animation: animation_text_thank_you 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.88s forwards;
+        }
+      }
     }
     &_2 {
+      overflow: hidden;
       color: color1.$color1_byzantine_night_blue;
       background: color1.$color1_parakeet_blue;
+
+      div {
+        &:nth-of-type(1) {
+          transform: translate(0%, -130%);
+          animation: animation_text_thank_you_2 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.86s forwards;
+        }
+        &:nth-of-type(2) {
+          transform: translate(0%, -130%);
+          animation: animation_text_thank_you_2 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.88s forwards;
+        }
+        &:nth-of-type(3) {
+          transform: translate(0%, -130%);
+          animation: animation_text_thank_you_2 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.9s forwards;
+        }
+        &:nth-of-type(4) {
+          transform: translate(0%, -130%);
+          animation: animation_text_thank_you_2 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.92s forwards;
+        }
+        &:nth-of-type(5) {
+          transform: translate(0%, -130%);
+          animation: animation_text_thank_you_2 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.94s forwards;
+        }
+        &:nth-of-type(6) {
+          transform: translate(0%, -130%);
+          animation: animation_text_thank_you_2 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.96s forwards;
+        }
+        &:nth-of-type(7) {
+          transform: translate(0%, -130%);
+          animation: animation_text_thank_you_2 0.6s
+            cubic-bezier(0.67, 0.19, 0.25, 0.81) 1.98s forwards;
+        }
+      }
     }
   }
 
@@ -37,5 +105,23 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes animation_text_thank_you {
+  0% {
+    transform: translate(0%, 130%);
+  }
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+@keyframes animation_text_thank_you_2 {
+  0% {
+    transform: translate(0%, -130%);
+  }
+  100% {
+    transform: translate(0%, 0%);
   }
 }

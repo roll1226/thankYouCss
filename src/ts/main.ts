@@ -71,8 +71,22 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 
   <div class="thank_you">
-    <div class="thank_you--text thank_you--text_1">ありがとう</div>
-    <div class="thank_you--text thank_you--text_2">ございました！</div>
+    <div class="thank_you--text thank_you--text_1">
+      <div>あ</div>
+      <div>り</div>
+      <div>が</div>
+      <div>と</div>
+      <div>う</div>
+    </div>
+    <div class="thank_you--text thank_you--text_2">
+      <div>ご</div>
+      <div>ざ</div>
+      <div>い</div>
+      <div>ま</div>
+      <div>し</div>
+      <div>た</div>
+      <div>！</div>
+    </div>
   </div>
 
   <div class="animation_4">
